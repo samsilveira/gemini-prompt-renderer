@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Gemini Prompt Renderer
-// @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @namespace    https://github.com/samsilveira/gemini-prompt-renderer
+// @version      1.0.1
 // @description  Render Markdown in messages sent by users on Gemini Web
 // @author       samsilveira
 // @match        https://gemini.google.com/*
 // @grant        none
-// @require      https://cdn.jsdelivr.net/npm/marked/marked.min.js
-// @require https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js
+// @require      https://update.greasyfork.org/scripts/506699/1684845/marked.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js
 // @license      MIT
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
 // @updateURL    https://github.com/samsilveira/gemini-prompt-renderer/raw/main/gemini-prompt-renderer.user.js
@@ -27,8 +27,7 @@
         } catch (e) {
         }
     }
-
-    // Load library Marked
+    // Load libraries (Fallback)
     function loadLibrary(url, callback) {
         if (typeof marked !== 'undefined') {
             callback();
