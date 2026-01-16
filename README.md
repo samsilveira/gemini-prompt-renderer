@@ -30,7 +30,7 @@ Natively, Gemini displays your prompts as raw text, making it difficult to read 
 The script works automatically. Once you send a message or load a chat history:
 
 1. Your message content will be formatted.
-2. A small code icon `</>` (or eye icon) will appear in the top-right corner of your message bubble.
+2. A small code icon `<>` (or eye icon) will appear in the top-right corner of your message bubble.
 3. Click the icon to toggle between **Raw Mode** and **Rendered Mode**.
 
 ## Contributing
