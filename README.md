@@ -16,7 +16,7 @@ Natively, Gemini displays your prompts as raw text, making it difficult to read 
 ## Installation
 
 1. Ensure you have the **Tampermonkey** extension installed in your browser ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)).
-2. **[CLICK HERE TO INSTALL THE SCRIPT](https://github.com/samsilveira/gemini-prompt-renderer/raw/main/gemini-prompt-renderer.user.js)**.
+2. **[CLICK HERE TO INSTALL THE SCRIPT](https://greasyfork.org/pt-BR/scripts/562919-gemini-prompt-renderer)**.
 3. Tampermonkey will open a tab asking for confirmation. Click **Install**.
 
 ## Screenshots
