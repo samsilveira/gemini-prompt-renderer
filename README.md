@@ -1,6 +1,6 @@
 # Gemini Prompt Renderer
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 A Tampermonkey Userscript that automatically renders Markdown structures (code blocks, tables, formatting) in messages sent by the user on the Google Gemini Web interface.
 
@@ -12,6 +12,10 @@ Natively, Gemini displays your prompts as raw text, making it difficult to read 
 - **Code Block Styling**: Code snippets are formatted with a dark background and monospaced font for better readability.
 - **Raw/Rendered Toggle**: A floating button allows you to instantly switch between the original text (for editing/copying) and the rendered view.
 - **Seamless Integration**: Styles are designed to match Google's Material Design and Gemini's native look and feel.
+
+## Privacy & Security
+
+This script runs **entirely locally** in your browser. It does not send your prompts to any external server. It relies on the generic marked.js library solely for text parsing.
 
 ## Installation
 
